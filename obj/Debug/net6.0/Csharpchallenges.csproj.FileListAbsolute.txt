@@ -1,0 +1,15 @@
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.csproj.AssemblyReference.cache
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.AssemblyInfoInputs.cache
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.AssemblyInfo.cs
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.csproj.CoreCompileInputs.cache
+C:\Dotnet\Csharpchallenges\bin\Debug\net6.0\Csharpchallenges.exe
+C:\Dotnet\Csharpchallenges\bin\Debug\net6.0\Csharpchallenges.deps.json
+C:\Dotnet\Csharpchallenges\bin\Debug\net6.0\Csharpchallenges.runtimeconfig.json
+C:\Dotnet\Csharpchallenges\bin\Debug\net6.0\Csharpchallenges.dll
+C:\Dotnet\Csharpchallenges\bin\Debug\net6.0\Csharpchallenges.pdb
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.dll
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\refint\Csharpchallenges.dll
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.pdb
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\Csharpchallenges.genruntimeconfig.cache
+C:\Dotnet\Csharpchallenges\obj\Debug\net6.0\ref\Csharpchallenges.dll
