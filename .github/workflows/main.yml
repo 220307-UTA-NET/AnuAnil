@@ -24,6 +24,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      
+      - name: Set up .Net Core
+        uses: actions/setup-dotnet@v1
+        with: 
+            dotnet-version: ${{ env.DOTNET_VERSION }}
+            
+      - name: Build with dotnet
+        run: dotnet build --configuration Release ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
