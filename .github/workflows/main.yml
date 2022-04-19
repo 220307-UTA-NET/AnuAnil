@@ -2,6 +2,10 @@
 
 name: CI Merge and Test WebApp
 
+env:
+   DOTNET_VERSION: '6.0.X'  # set this to the .net core version to use 
+   AZURE_WEBAPP_PACKAGE_PATH: '/BuildOutput'
+
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -30,15 +34,10 @@ jobs:
         with: 
             dotnet-version: ${{ env.DOTNET_VERSION }}
             
+      - name: check folders
+        run: ls ./ -a 
+            
       - name: Build with dotnet
         run: dotnet build --configuration Release ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+     
